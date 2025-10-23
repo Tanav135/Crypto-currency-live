@@ -1,0 +1,8 @@
+You have two options:
+
+Stay on the free tier: use "interval": "hourly" — still works and updates every hour (good enough for short-term “sentiment”).
+
+Use API key for v3beta: register at https://www.coingecko.com/en/api
+ → free tier → get API key → add x-cg-pro-api-key header.
+
+For now, to keep it simple and free, we’ll use option 1 (hourly).
